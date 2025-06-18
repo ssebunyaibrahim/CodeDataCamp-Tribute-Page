@@ -11,7 +11,7 @@ body{
 }
 
 main{
-    background-color: #EEEEEE;
+    background-color:#FFD206;
     border-radius: 5px;
 }
 
@@ -31,15 +31,17 @@ img{
     display: block;
     margin: 20px auto;
     padding-top: 20px;
-    max-width: 99%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 5px;
 }
 
 figure{
-    background-color: white;
-    padding-bottom: 20px;
-    width: 97.5%;
-    margin: 0px auto;
+    background-color:#DE111D;
+    padding:20px 0;
+    width: 100%;
+    margin-top: -20px;
+    color: white;
 }
 
 #tribute-info{
@@ -79,4 +81,5 @@ header{
     background-color: #191919;
     height: 180px;
     border-radius: 5px 5px 0 0;
+    color: white;
 }
